@@ -1,58 +1,71 @@
-# 3D Printing #
-Print in the orientation shown in the images below. 
-Consider PETG for a more weather resistant material, but note that the model is not designed to be weatherproof.
+# 3D-Druckanleitung #
+Drucke die Teile in der Ausrichtung, wie auf den Bildern unten gezeigt.  
+PETG ist eine gute Wahl, wenn du ein wetterbeständigeres Material möchtest – aber beachte: Das Modell ist **nicht** wetterfest konstruiert.
 
-### Needed for Printing ###
+### Benötigte Teile für den Druck ###
 
-| Qty | Part                   | Note                        |
+| Menge | Teil                   | Hinweis                        |
 |-----|------------------------|-----------------------------|
-| 8   | 10x3 Neodymium Magnets | For the tail-to-body mount. |
-|     | Cyanoacrylic Glue      | For the magnet shims.       |
+| 8   | 10×3 mm Neodym-Magnete | Für die Verbindung zwischen Schwanz und Körper. |
+|     | Sekundenkleber       | zum Fixieren der Magnet-Unterlagen.        |
 
-## Important Note: ##
-The magnet mount holes are sealed and will require you to pause during printing to install them.
-The spaces are 3.5mm tall, so for example, at a 0.16mm layer height, I have to pause on layer 25.
 
-*Measure your magnets.*
-Mine are 2.66mm tall, so taking that away from 3.5mm and leaving a little slack, I scale the Z axis of the 1.0mm shims (yellow arrows below) to 80%.
 
-Magnets must be installed with the correct polarity!
-Mark the Tail and Body sides so you don't get confused.
-I add a touch of CA glue to the shim and stick one onto each magnet before resuming the print.
 
-![Magnets inserted and shims being glued](../images/AniCrow028.jpg)
+## Wichtiger Hinweis: ##
+ 
+Die Magnetöffnungen sind geschlossen – du musst den Druck pausieren, um die Magnete einzusetzen.  
+Die Aussparungen sind 3,5 mm hoch. Bei einer Schichthöhe von 0,16 mm pausiere ich z. B. bei Schicht 25.
 
-## Second Note: ##
-The crow body is designed to be printed with minimal supports (only for the "ankles").
-My slicer (Bambu) wants to generate an enormous support to catch the tiny top of the PCB mount.
-I highlight it "do not support" and save some filament.
 
-![No need for printed support here](../images/AniCrow029.png)
+**Miss deine Magnete nach!**  
+Meine sind 2,66 mm hoch. Um etwas Spiel zu lassen, skaliere ich die Z-Höhe der 1,0 mm Shims (gelbe Pfeile unten) auf 80 %.
 
-On a related note, I do need to support the sloping underside of the beak. YMMV.
+Achte auf die **richtige Polarität** der Magnete!  
+Markiere die Seiten für „Körper“ und „Schwanz“, damit du sie nicht verwechselst.  
+Ich gebe einen Tropfen Sekundenkleber auf die Unterlage und klebe ihn auf den Magneten, bevor ich den Druck fortsetze.
 
-## Third Note: ##
-The stepper collar slides against the stepper plate.
-I print these two pieces (green arrows below) with ironing on to help smooth the surface.
-After printing, I sand both the dome mounts on the body plate and the sliding surface on the collar to 800 grit.
-Add dry lube to both before assembly.
 
-# Crow with PIR Sensor Window #
-![PIR Crow STL Files for 3D printing](../images/AniCrow026.png)
+![Magnete eingesetzt, Unterlagen werden geklebt](images/AniCrow028.jpg)
 
-### PIR Components in Green Circles ###
-* *Not Pictured:* The beak actuator.  *(Recommend printing with 0.2mm nozzle.)*
-* A holder for the PIR sensor. *(Recommend printing with 0.2mm nozzle.)*
-* An internal cover (to prevent the sensor from seeing the crow move its head from the inside).
-* Crow body with PIR window cutout.
-* An oval for covering the PIR window.
-* Feet with or without holes will work--the holes are for a zip tie or wire attachment.
 
-# Crow with No Sensor or Radar Sensor #
-![Crow STL Files for 3D printing](../images/AniCrow027.png)
 
-* *Not Pictured:* The beak actuator.  *(Recommend printing with 0.2mm nozzle.)*
-* *Not Pictured:* A radar mount belongs in the green circle (will update once I have the LD1020 in hand).
-* Crow body with NO window cutout.
-* Feet with or without holes will work--the holes are for a zip tie or wire attachment.
+## Zweiter Hinweis: ##
+Der Krähenkörper ist so konstruiert, dass er mit minimalen Stützstrukturen gedruckt werden kann (nur an den „Knöcheln“ nötig).  
+Mein Slicer (Bambu) möchte eine riesige Stütze für die winzige Spitze der PCB-Halterung erzeugen.  
+Ich markiere diesen Bereich als „nicht stützen“ – spart Material.
 
+
+![Hier ist kein gedruckter Support nötig](images/AniCrow029.png)
+
+Kleiner Hinweis am Rande:  
+Die schräge Unterseite des Schnabels **muss** bei mir gestützt werden – deine Ergebnisse können abweichen.
+
+
+## Dritter Hinweis: ##
+Stepper-Kragen gleitet auf der Stepper-Platte.  
+Ich drucke diese beiden Teile (grüne Pfeile unten) mit aktivierter „Ironing“-Funktion, um die Oberfläche zu glätten.  
+Nach dem Druck schleife ich sowohl die Kuppelhalterungen auf der Körperplatte als auch die Gleitfläche des Kragens mit 800er Schleifpapier.  
+Vor dem Zusammenbau kommt noch etwas Trockenschmiermittel drauf.
+
+
+# Krähe mit PIR-Sensor-Fenster  #
+![PIR-Krähe STL-Dateien für den 3D-Druck](images/AniCrow026.png)
+
+### PIR-Komponenten (grün markiert)  ###
+
+*Nicht abgebildet:* Der Schnabel-Aktuator *(empfohlen mit 0,2 mm Düse drucken)*
+* Eine Halterung für den PIR-Sensor *(ebenfalls 0,2 mm Düse empfohlen)*
+* Eine innere Abdeckung (verhindert, dass der Sensor die Kopfbewegung der Krähe erkennt)
+* Krähenkörper mit Aussparung für das PIR-Fenster
+* Ein Oval zum Abdecken des PIR-Fensters
+* Füße mit oder ohne Loch funktionieren – das Loch ist für Kabelbinder oder Drahtbefestigung gedacht
+
+
+# Krähe ohne Sensor oder mit Radarsensor #
+![Krähen-STLs für den 3D-Druck](images/AniCrow027.png)
+
+* *Nicht abgebildet:* Der Schnabel-Aktuator. *(Empfohlen: Druck mit 0,2 mm Düse.)*
+* *Nicht abgebildet:* Eine Radarhalterung gehört in den grünen Kreis (wird ergänzt, sobald ich den LD1020 habe)
+* Krähenkörper **ohne** Fenster-Aussparung
+* Füße mit oder ohne Loch funktionieren – das Loch ist für Kabelbinder oder Drahtbefestigung gedacht
