@@ -3,10 +3,10 @@ Deutsche Übersetzung der Anleitungen aus dem Projekt swaziloo/halloween/animatr
 
 ## Inhalt & Status
 
-- ✅ `docs/README.de.md` – fertig
-- ✅ `docs/3d-druckanleitung.de.md` – fertig
-- ✅ `docs/MaxVolBodge.de.md` – fertig
-- ✅ `docs/BUILD.de.md` – fertig
+- ✅ `docs/README.de.md` | allgemeine Infos zum Projekt – fertig
+- ✅ `docs/3d-druckanleitung.de.md` | Anleitung/Hinweise zum 3D Drucken der benötigten Teile – fertig
+- ✅ `docs/MaxVolBodge.de.md` | Hier werden die Fixes erklärt, die evtl. an PCBs vor Version 1.2 durchgeführt werden müssen – fertig
+- ✅ `docs/BUILD.de.md` | Aufbauanleitung der Krähe – fertig
 - ⏳ Weitere Übersetzungen/Updates folgen nach Upstream-Änderungen
 
 ## Version & Upstream
